@@ -1,7 +1,7 @@
 <?php
 require("connection.php");
 require("helper.php");
-
+// hello word
 if (isset($_POST['editproduct'])) {
     foreach ($_POST as $key => $value) {
         $_POST[$key] = mysqli_real_escape_string($con, $value);
